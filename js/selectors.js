@@ -8,13 +8,13 @@ function paragraphSelector(){
 
 function lastImageSelector(){
   let result
-  result = $('img:last')[0]
+  result = $('img:last')
   return result
 }
 
 function ninjaBabySelector(){
   let result
-  result = $('#baby-ninja')[0]
+  result = $('#baby-ninja')
   return result
 }
 
@@ -27,6 +27,6 @@ function  divSelector(){
 
 function firstListItem(){
   let result
-  result = $('#pic-list li:first')[0]
+  result = $('#pic-list li:first')
   return result
 }
